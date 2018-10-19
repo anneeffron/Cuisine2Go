@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SchedulerScreenController">
+   <children>
+      <Button fx:id="stepButton" layoutX="23.0" layoutY="459.0" mnemonicParsing="false" onAction="#StepClick" text="Step" />
+      <Label layoutX="274.0" layoutY="14.0" text="Map">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="DriverLabel" layoutX="228.0" layoutY="168.0" text="DriverLabel" />
+      <Label layoutX="250.0" layoutY="250.0" prefHeight="80.0" prefWidth="80.0" text="Restaurant" />
+      <Label fx:id="OrderLabel" layoutX="53.0" layoutY="132.0" text="OrderLabel" />
+      <Label fx:id="orderStatus" layoutX="105.0" layoutY="464.0" text="Order" />
+      <Label fx:id="statusLabel" layoutX="254.0" layoutY="464.0" text="Status" />
+      <Label fx:id="driverName" layoutX="401.0" layoutY="464.0" text="driver" />
+      
+   </children>
+</AnchorPane>

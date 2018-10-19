@@ -1,0 +1,16 @@
+We had to change Java 9 to Java 8
+
+If you leave anything blank in an order the system breaks
+
+Allowed to press schedule even with no driver/no orders
+
+They do not have a visualization of a map. There is movement to and from places but it's just text moving.
+
+They have a "Mr.Delivery" way of signing in. They do not have a sign out or amount of time feature.
+
+It appears that their scale is off for their X,Y. For instance, I put a 12,13 location and while it does go to the top left corner
+it goes to the very top left while the restaurant (should be 50,50) is very far away. What I am rambling on about is the scale seems to be off.
+
+They implemented controllers to the driver instances but doesn't seem to do anything with it.
+
+Again, any button you press on the home screen that isn't order or driver crashes this system. 

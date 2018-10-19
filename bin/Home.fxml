@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="290.0" prefWidth="284.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.HomeController">
+   <children>
+      <Label layoutX="108.0" layoutY="14.0" text="Home">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="newOrderButton" layoutX="101.0" layoutY="62.0" mnemonicParsing="false" onAction="#orderClick" text="New Order" />
+      <Button fx:id="newDriverButton" layoutX="99.0" layoutY="105.0" mnemonicParsing="false" onAction="#newDriverClick" text="New Driver" />
+      <Button fx:id="driverLogButton" layoutX="72.0" layoutY="151.0" mnemonicParsing="false" onAction="#driverLogClick" text="Driver Login/Logout" />
+      <Button fx:id="schedulerButton" layoutX="103.0" layoutY="195.0" mnemonicParsing="false" onAction="#schedulerClick" text="Scheduler" />
+      <Button fx:id="reportButton" layoutX="112.0" layoutY="238.0" mnemonicParsing="false" onAction="#reportClick" text="Report" />
+   </children>
+</AnchorPane>
